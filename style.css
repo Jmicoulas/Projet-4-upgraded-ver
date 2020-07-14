@@ -287,12 +287,8 @@ div.row.row-no-gutters.social{
     justify-content: space-between;
 }
 
-div.col-sm-4{
-    margin: auto;
-}
-
-ul{
-    margin: auto;
+.h3-part{
+    color: white !important;
 }
 
 #bloc-1-hero h1 {
@@ -384,6 +380,10 @@ ul{
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.text-social{
+    font-size: 2em;
 }
 
 @media (min-width: 768px) {
@@ -1088,6 +1088,19 @@ h4 {
     p#p-center.text-center.white{
         font-size: 18px;
         padding: 0 !important;
+    }
+
+    .text-social{
+        display: none;
+    }
+
+    div.col-sm-6{
+        text-align: center;
+    }
+
+     div.col-sm-6 ul{
+        list-style: none;
+        padding: 0;
     }
 }
 
