@@ -287,6 +287,13 @@ div.row.row-no-gutters.social{
     justify-content: space-between;
 }
 
+div.col-sm-4{
+    margin: auto;
+}
+
+ul{
+    margin: auto;
+}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -1061,11 +1068,30 @@ h4 {
         width: 216px;
         height: 425px;
     }
+
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
     }
+
+    .cta-hero{
+    width: 16em;
+    overflow: hidden;
+    white-space: initial;
+    }
+
+    h2.mg-md.text-center.tc-white{
+        font-size: 18px;
+        padding: 0 !important;
+    }
+
+    p#p-center.text-center.white{
+        font-size: 18px;
+        padding: 0 !important;
+    }
 }
+
+
 
 @media (max-width: 400px) {
     .bloc {
